@@ -1,0 +1,30 @@
+# STM32CubeIDE
+/.settings/
+/Debug/
+/Release/
+/build/
+*.launch
+*.bin
+*.elf
+*.hex
+*.map
+*.o
+*.d
+*.list
+*.srec
+
+# IDE
+*.project
+*.cproject
+*.load
+*.log
+
+# Backup/OS Files
+*.swp
+*.tmp
+*.bak
+*.old
+*~
+.DS_Store
+Thumbs.db
+
