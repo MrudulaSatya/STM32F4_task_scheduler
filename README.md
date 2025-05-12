@@ -22,7 +22,7 @@ This project implements a basic task scheduler in C on the STM32F407 Discovery b
 
 ## How It Works
 
-<pre> SysTick (every 1 ms) ↓ Update task block counters ↓ Are any tasks unblocked? ↓ Yes ──► Set PendSV Pending ↓ PendSV Handler ↓ Context Switch to next ready task </pre>
+<pre> SysTick (every 1 ms) <br><pre>         ↓ </pre> Update task block counters <br><pre>         ↓ </pre> Are any tasks unblocked? <br><pre>         ↓ </pre> Yes ──► Set PendSV Pending <br><pre>         ↓ </pre> PendSV Handler <br><pre>         ↓ </pre> Context Switch to next ready task </pre>
 
 ## Hardware & Tools
 
@@ -46,11 +46,11 @@ This project implements a basic task scheduler in C on the STM32F407 Discovery b
 
 ## Directory Structure
 
-Core/
-├── Inc/ # Header files (main.h)
-├── Src/ # Source files (main.c)
-Startup/
-└── startup_stm32f407xx.s
+Core/ <br>
+├── Inc/ # Header files (main.h) <br>
+├── Src/ # Source files (main.c) <br>
+Startup/ <br>
+└── startup_stm32f407xx.s <br>
 
 ## Learnings
 
