@@ -4,8 +4,6 @@
 ![Language](https://img.shields.io/badge/language-C-blue)
 ![IDE](https://img.shields.io/badge/IDE-STM32CubeIDE-green)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
-![Project Status](https://img.shields.io/badge/status-learning-informational)
-![Made With Love](https://img.shields.io/badge/Made%20with-%F0%9F%92%9C-ff69b4)
 
 This project implements a basic task scheduler in C on the STM32F407 Discovery board. The scheduler is designed using a round-robin strategy and includes task delay management and support for idle task execution. Inspired by Kiran Nayak's Udemy course, this implementation adds a custom priority override feature to give more control over task execution order.
 
